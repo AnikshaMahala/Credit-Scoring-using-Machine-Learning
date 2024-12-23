@@ -12,23 +12,23 @@ Credit scoring is a systematic approach to evaluate the creditworthiness of indi
 
 - Predictive credit scoring provides financial institutions with the ability to:
 
- - Streamline decision-making processes.
+  - Streamline decision-making processes.
 
- - Quantify borrower risk efficiently.
+  - Quantify borrower risk efficiently.
 
- - Provide data-driven loan approval or denial decisions.
+  - Provide data-driven loan approval or denial decisions.
 
- - A higher credit score suggests lower credit risk, increasing the likelihood of securing favorable loan terms. Conversely, a lower score might lead to higher interest rates or credit denial.
+  - A higher credit score suggests lower credit risk, increasing the likelihood of securing favorable loan terms. Conversely, a lower score might lead to higher interest rates or credit denial.
 
 ## Dataset Description
 
 - The dataset contains:
 
- - 39,717 records of loan applications.
+  - 39,717 records of loan applications.
 
- - 111 columns covering financial metrics, credit history indicators, loan status, and borrower details.
+  - 111 columns covering financial metrics, credit history indicators, loan status, and borrower details.
 
- - Target variable: Loan Status, categorized as Fully Paid, Charged Off, or Default.
+  - Target variable: Loan Status, categorized as Fully Paid, Charged Off, or Default.
 
 ## Methodology
 
