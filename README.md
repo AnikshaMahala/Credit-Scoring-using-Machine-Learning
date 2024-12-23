@@ -34,19 +34,19 @@ Credit scoring is a systematic approach to evaluate the creditworthiness of indi
 
 1. Data Preprocessing
 
-- 1.1 Exploratory Data Analysis (EDA)
+ 1.1 Exploratory Data Analysis (EDA)
 
   - Focused on the Loan Status target variable.
 
   - Filtered dataset to retain relevant statuses and created a binary classification target: Late Loan (repaid or not).
 
-- 1.2 Data Cleaning
+ 1.2 Data Cleaning
 
   - Dropped columns with more than 10% missing values.
 
   - Replaced missing values in remaining columns with their median.
 
-- 1.3 Feature Engineering
+ 1.3 Feature Engineering
 
   - Binning: Grouped continuous and categorical variables to establish a monotonic relationship with the target.
 
@@ -58,13 +58,13 @@ Credit scoring is a systematic approach to evaluate the creditworthiness of indi
 
 2. Model Development
 
-- 2.1 Logistic Regression
+ 2.1 Logistic Regression
 
   - Primary model used for predicting loan default likelihood.
 
   - Selected features like income and loan grade, applying WOE-transformed data.
 
-- 2.2 Decision Tree Classifier
+ 2.2 Decision Tree Classifier
 
   - Used as a baseline for comparison with logistic regression.
 
